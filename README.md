@@ -2,6 +2,7 @@
 he Online Grocery Shop Management System is a web-based project designed to streamline the shopping experience for customers and simplify management for the shop owners. It is a dynamic application built using PHP and MySQL, incorporating features that facilitate product browsing, user authentication, and cart management. Below is a summary of the project:
 
 Key Features:
+
 1.User Authentication:
 Users can register, log in, and manage their profiles.
 Secure password handling ensures data safety.
