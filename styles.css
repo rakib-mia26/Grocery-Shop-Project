@@ -1,0 +1,165 @@
+/* Basic reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.login-container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.login-container a:hover {
+    background-color: #0056b3;
+}
+
+/* Product List Section */
+.product-list {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.add-to-cart-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #218838;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Login, Register, and Profile Pages */
+.login-container, .register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error, .success {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: #28a745;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
